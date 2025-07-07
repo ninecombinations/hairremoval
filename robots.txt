@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /checkout/
+Disallow: /cart/
+Disallow: /account/
+Disallow: /orders/
+Disallow: /thank-you/
+
+Sitemap: https://hairremovalpowder.ninecombinations.com/sitemap.xml
