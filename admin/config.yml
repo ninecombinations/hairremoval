@@ -1,0 +1,26 @@
+backend:
+  name: github
+  repo: ninecombinations/hairremoval  
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  - name: "blog"
+    label: "Blog Posts"
+    folder: "blog"
+    create: true
+    extension: "html"
+    fields:
+      - { name: "title", label: "Title", widget: "string" }
+      - { name: "body", label: "Body", widget: "markdown" }
+
+  - name: "products"
+    label: "Products"
+    folder: "products"
+    create: true
+    extension: "html"
+    fields:
+      - { name: "title", label: "Title", widget: "string" }
+      - { name: "body", label: "Body", widget: "markdown" }
